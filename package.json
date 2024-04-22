@@ -1,7 +1,6 @@
 {
   "name": "notes-app",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +18,7 @@
     "init": "^0.1.2",
     "mongodb": "^6.5.0",
     "mongoose": "^6.10.0"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }

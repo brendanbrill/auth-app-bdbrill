@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 const bcrypt  = require('bcrypt')
 const session = require('express-session')
 const MongoStore = require('connect-mongo')
-const dotenv = require('dotenv')
+const dotenv = require('dotenv').config()
 
 const User = require('./models/user') // import the User model from models.
 const userRouter = require('./routes/user') // import the /user route handlers from routes.
